@@ -1,0 +1,17 @@
+@media only screen and (max-width: 284px)  {
+    .img p{
+        font-size: 60px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .column{
+        flex-direction: column;
+    }
+
+    .tamanho{
+        height: 100vh;
+    }
+}
