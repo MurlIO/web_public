@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgb(197, 197, 197);
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    background: white;
+    padding: 35px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.botao{
+    display: flex;
+    border: 1px solid gray;
+    margin: 15px 0 30px 0;
+    background: rgb(197, 197, 197);
+    justify-content: center;
+}
+
+input{
+    padding: 10px;
+}
