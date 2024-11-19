@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 2000px;
+}
+
+.img{
+    background-image: url(../img/Default_manage_a_kitchen_fund_2_1177b0b5-cc6f-46dc-bd87-5d44e95f4ab2_0.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    opacity: 95%;
+}
+
+.img p{
+    font-family: "Lobster Two", serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #763F21;
+    font-size: 110px;
+    opacity: 100%;
+    -webkit-text-stroke: #472715 2px;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    justify-content: center;
+    gap: 9vw;
+    border-top: 5px solid #472715;
+    background: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu a{
+    padding: 20px;
+    color: #D2A27A;
+    border-radius: 0 0 15px 15px;
+}
+
+.menu a:hover{
+    transition: 0.5s;
+    color: white;
+    background: #472715;
+}
+
+.menu.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.menu.fixed + .container {
+    padding-top: 60px;
+}
+
+.container{
+    max-width: 1144px;
+    margin: 0 auto;
+}
+
+.item_1, .item_2{
+    margin: 20px;
+}
+
+.item_2{
+    background-image: url(../img/Leonardo_Kino_XL_generates_a_woman_in_the_center_with_a_chefs_2.jpg);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: bottom;
+    justify-content: center;
+}
+
+.flex_1{
+    flex: 1;
+}
+
+.container_2{
+    align-items: stretch;
+}
+
+.bloco{
+    border-radius: 15px;
+    background: #763F21;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #472715;
+    margin: 15px;
+}
+
+.bloco:hover{
+    transition: 0.5s;
+    background: #472715;
+    color: white;
+}
