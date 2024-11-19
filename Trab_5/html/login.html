@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style_login.css">
+    <title>Login - Sistema</title>
+</head>
+<body class="flex">
+    <main class="flex column">
+        <form class="container flex column" action="/login" method="POST">
+            <!-- Campo de usuário -->
+            <label for="email">Usuário:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+            
+            <!-- Campo de senha -->
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
+            
+            <!-- Botão de envio -->
+            <button type="submit" class="botao flex">
+                <img src="../img/icon_login.png" alt="Ícone de login">
+                <p>Entrar</p>
+            </button>
+        </form>
+    </main>
+</body>
+</html>
